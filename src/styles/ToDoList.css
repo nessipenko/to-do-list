@@ -1,0 +1,27 @@
+.ToDoList_container {
+    padding: 45px;
+    background-color: rgba(255, 129, 112, 1.00);
+    min-height: 100vw;
+    width: 600px;
+}
+
+.Input {
+    min-width: 370px;
+    height: 48px;
+    margin-right: 5px;
+    font-size: 17px;
+    padding-left: 25px;
+    border: none;
+    border-radius: 2cap;
+    color: rgb(88, 50, 50);
+}
+
+.Btn {
+    width: 120px;
+    height: 50px;
+    background: none;
+    border: 1px solid antiquewhite;
+    color: antiquewhite;
+    font-size: 17px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,24 @@
+.Header {
+    margin-top: 25px;
+    color: antiquewhite;
+
+}
+
+.Todo_header {
+    font-size: 35px;
+
+}
+
+.Todo_subheader {
+    opacity: 0.5;
+    margin-top: -19px;
+    font-size: 13px;
+}
+
+.divider {
+    opacity: 0.5;
+    margin-top: -5px;
+    margin-bottom: 40px;
+    border-top: 1px solid;
+    max-width: 90%;
+}

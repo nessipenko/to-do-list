@@ -1,0 +1,60 @@
+.ToDo {
+    min-height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 55px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: rgba(255, 145, 126, 1.00);
+    opacity: 0.7;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.ToDoTask {
+
+    position: relative;
+    transition: opacity 0.4s linear;
+}
+
+.ToDoTask.completed {
+    opacity: 0.6;
+}
+
+.ToDoTask.completed:before {
+    content: '';
+    position: absolute;
+    top: 55%;
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    animation: strikeitem 0.5s ease-out 0s forwards;
+
+}
+
+@keyframes strikeitem {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.Edit {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.Icon {
+    max-height: 30px;
+}
